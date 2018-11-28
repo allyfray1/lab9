@@ -6,6 +6,16 @@
 
 void transfer_data_into_file(char *fname, char *fname2, char *csvFile);
 
+/*
+ *Location:     Temple University Computer Science
+ * Programmer:  Allyson Fray
+ * Class:       Introduction to C Programming 1057 Fall 2018 Section 007
+ * Assignment:  Number 9 - Bubble CSV and GitHub
+ * Date:        November 14, 2018
+ * Version:     1
+ * Description: combines two data files into one csv file
+ */
+
 int main()
 {
 
@@ -16,6 +26,19 @@ int main()
 	return EXIT_SUCCESS;
 
 }
+
+/*
+ *Function:    transfer_data_into_file()
+ *Programmer:  Allyson Fray
+ *Date:        November 14, 2018
+ *Inputs:      char *fname - name of first data file
+ *             char *fname2 - name of second data file
+ *             char *csvFile - name of csv file
+ *Outputs:     None
+ *Returns:     Nothing
+ *Globals:     NUMBER_OF_QUESTIONS_PER_STUDENT - number of questions each student answered
+ *Description: transfers all the data from the data files into the csv file in the correct format
+ */
 
 void transfer_data_into_file( char *fname, char *fname2, char *csvFile)
 {
